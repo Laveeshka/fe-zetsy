@@ -2,6 +2,7 @@
 
 /* link the web font used for the level 1 heading here */
 
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +19,59 @@ body {
 }
 
 /* Write all remaining styles here */
+#heading-1 {
+	font-family: 'Baskerville', serif;
+	font-weight: bold;
+	font-size: 5em;
+	color: rgb(156, 172, 166);
+	border-bottom: 1px solid rgb(156, 172, 166);
+	margin: 0 0 5px 0;
+	padding-bottom: 10px;
+}
+
+#heading-1:hover {
+	color: rgb(111, 127, 122);
+	cursor: pointer;
+}
+
+/* Level 2 header */
+h2 {
+	color: rgb(111, 127, 122);
+	font-size: 2em;
+}
+
+/* Featured image */
+#featured img {
+	border: 5px solid rgb(156, 172, 166);
+	margin: 0 auto;
+}
+
+/* Featured paragraph */
+#featured p {
+	margin: 0 0 20px 0;
+	color: rgb(85, 85, 85);
+	font-size: 1em;
+}
+
+/* Featured anchor link */
+#featured a {
+	text-decoration: none;
+	color: #1783bb;
+}
+
+/* Press */
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px solid rgb(204, 204, 204);
+	padding: 1px;
+}
+
+/* Footer */
+footer p {
+	font-size: 0.8em;
+	color: rgb(85, 85, 85);
+	text-align: right;
+}
