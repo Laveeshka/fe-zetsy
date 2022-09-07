@@ -27,6 +27,8 @@ body {
 	border-bottom: 1px solid rgb(156, 172, 166);
 	margin: 0 0 5px 0;
 	padding-bottom: 10px;
+	transition: background-color 0.5s ease;
+
 }
 
 #heading-1:hover {
